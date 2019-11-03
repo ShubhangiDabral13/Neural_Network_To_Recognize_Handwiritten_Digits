@@ -1,5 +1,4 @@
 # Using Network nets to recognize handwritten digits.
-|---|
 Neural network is a part of deep learning and to implement the *Digit Recognition* we will use *Deep Learning*.Let us start with what is 
 deep learning and then dive further into the topic to explore more about it.
 ## What is Deep Learning.
@@ -10,19 +9,24 @@ that is unstructured or unlabeled. Also known as deep neural learning or deep ne
 **_Deep_** parts refers of creating deep neural network. This refers to neural network with large amount of layers with the addition *weights*
 and *biases*.
 ### Key points about deep learning:-
-..*Deep Learning refers to Deep Neural Network(DNN).
-..*DNN find association between a set of inputs and outputs.
-..*Backpropogation is something that is used to update the parameters(weights and biases) of neural networks.
+* Deep Learning refers to Deep Neural Network(DNN).
+
+* DNN find association between a set of inputs and outputs.
+
+* Backpropogation is something that is used to update the parameters(weights and biases) of neural networks.
 The above explanation about DNN might be foggy to you if you are new to this topic but don't worry i will make things crytsal clear to you.
 The next question which might pop in your brain are What is neural network ,what are those layer and how actually neural network in Digit
 Recognition.
 ## What is Neural Network.
 <!---pic of neural network-->
 The above fig is of Neural Network. It help to find the association between a set of inputs and outputs.
-..* All the above layer are composed of nodes.\
-..*Input layer takes in the numerical representation of data.
-..*Output layer output the predictions.
---*While hidden layers are correlated with most of the computation.
+* All the above layer are composed of nodes.
+
+* Input layer takes in the numerical representation of data.
+
+* Output layer output the predictions.
+
+* While hidden layers are correlated with most of the computation.
 <!--- pic of a nodes with weight and biases-->
 The parameter weights and Bias are essential to the actual *Learning* process of deep learning algorithm.
 After the neural network passes its input all theto its output, the network evaluates how good its perdiction was through something called 
@@ -38,8 +42,9 @@ it takes several binary inputs x1,x2,.... and produce one output.weights are the
 to the output.
 <!---image of those output and threshold-->
 We change summation of wj*xj threshold which is cumbersome in two things:-
-..1.By moving to otherside of inequality and to replace it by what's known as perceptron'sbias =-Threshold.
-..2.write summation ofwjxj as dot product of w.x where w and x are vectors whose components are weight and input respectively.
+1. By moving to otherside of inequality and to replace it by what's known as perceptron'sbias =-Threshold.
+
+2. write summation ofwjxj as dot product of w.x where w and x are vectors whose components are weight and input respectively.
 <!---image of output with bias-->
 Bias is a measure of how esay it is to get perceptron to output a 1.Perceptron with really big bias ,its extremely easy for perceptron to 
 output a 1.
@@ -69,8 +74,9 @@ contain just a single neuron, with output values of less than 0.5 indicating "in
 "input image is a 9 ".
 #### A simple network to classify handwritten digits.
 We split the problem of recognizing handwritten digit into 2 sub-problem
-..1)We would like to break the image containing many digit into a sequence of seperating images,each containing single digit.
-..2)second problem to classifying individual digits.
+1. We would like to break the image containing many digit into a sequence of seperating images,each containing single digit.
+
+2. second problem to classifying individual digits.
 <!---neuron network for digit recognition-->
 In output layer we have total 10 neuron if 0th neuron fire means the digit was zero and so on.
 ### Gradient Descent.
@@ -78,8 +84,9 @@ This is an iterative optimization algorithm for finding the minimum of a functio
 gradient of the function at the current point. In deep learning neural networks are trained by defining a loss function and optimizing the
 parameters of the network to obtain the minimum of the function. the optimization is dne using the gradient descent algorithm which operates
 in these two steps:
-..1.Compute the slope (gradient) that is first order derivative of the function at the current point
-..1.Move in the opposite direction of the slope increase from the current point by the computed amount
+1. Compute the slope (gradient) that is first order derivative of the function at the current point
+
+2. Move in the opposite direction of the slope increase from the current point by the computed amount
 <!---image of equation of gradient decent-->
 #### Stochastic Gradient Descent
 In this method one training sample (example) is passed through the neural network at a time and the parameters (weights) of each layer are
