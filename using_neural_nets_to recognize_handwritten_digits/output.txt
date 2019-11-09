@@ -1,36 +1,36 @@
-Output of the implentation_of_code when 
-1.epochs is 30
-2.mini_batch_size is 10 
-3.eta is 3.0
+Output of the implementation_of_the_code when
 
+1. epochs is 30
+2. mini_batch_size is 10
+3. eta is 30
 
-Epoch 0: 8191 / 10000
-Epoch 1: 8343 / 10000
-Epoch 2: 8378 / 10000
-Epoch 3: 8466 / 10000
-Epoch 4: 8480 / 10000
-Epoch 5: 8484 / 10000
-Epoch 6: 8480 / 10000
-Epoch 7: 8499 / 10000
-Epoch 8: 8496 / 10000
-Epoch 9: 8546 / 10000
-Epoch 10: 8573 / 10000
-Epoch 11: 8545 / 10000
-Epoch 12: 8568 / 10000
-Epoch 13: 8550 / 10000
-Epoch 14: 8565 / 10000
-Epoch 15: 8579 / 10000
-Epoch 16: 8570 / 10000
-Epoch 17: 8569 / 10000
-Epoch 18: 8584 / 10000
-Epoch 19: 8609 / 10000
-Epoch 20: 8578 / 10000
-Epoch 21: 8595 / 10000
-Epoch 22: 8574 / 10000
-Epoch 23: 8587 / 10000
-Epoch 24: 8595 / 10000
-Epoch 25: 8587 / 10000
-Epoch 26: 8606 / 10000
-Epoch 27: 8594 / 10000
-Epoch 28: 8577 / 10000
-Epoch 29: 8608 / 10000
+Epoch 0: 8217 / 10000
+Epoch 1: 8368 / 10000
+Epoch 2: 8433 / 10000
+Epoch 3: 8436 / 10000
+Epoch 4: 8490 / 10000
+Epoch 5: 8500 / 10000
+Epoch 6: 8542 / 10000
+Epoch 7: 9426 / 10000
+Epoch 8: 9437 / 10000
+Epoch 9: 9385 / 10000
+Epoch 10: 9415 / 10000
+Epoch 11: 9438 / 10000
+Epoch 12: 9464 / 10000
+Epoch 13: 9427 / 10000
+Epoch 14: 9452 / 10000
+Epoch 15: 9450 / 10000
+Epoch 16: 9469 / 10000
+Epoch 17: 9443 / 10000
+Epoch 18: 9467 / 10000
+Epoch 19: 9452 / 10000
+Epoch 20: 9463 / 10000
+Epoch 21: 9457 / 10000
+Epoch 22: 9472 / 10000
+Epoch 23: 9457 / 10000
+Epoch 24: 9471 / 10000
+Epoch 25: 9466 / 10000
+Epoch 26: 9449 / 10000
+Epoch 27: 9453 / 10000
+Epoch 28: 9488 / 10000
+Epoch 29: 9484 / 10000
